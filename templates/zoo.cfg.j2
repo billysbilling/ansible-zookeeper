@@ -5,6 +5,8 @@ clientPort={{ client_port }}
 initLimit={{ init_limit }}
 syncLimit={{ sync_limit }}
 maxClientCnxns={{ zookeeper_max_client_connections }}
+admin.enableServer={{ admin_enable_server }}
+admin.serverPort={{ admin_server_port }}
 {% if zookeeper_autopurge_purgeInterval > 0 %}
 autopurge.purgeInterval={{ zookeeper_autopurge_purgeInterval }}
 autopurge.snapRetainCount={{ zookeeper_autopurge_snapRetainCount }}
