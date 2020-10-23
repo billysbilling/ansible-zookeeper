@@ -43,3 +43,8 @@ zookeeper_env: {}
 
 # Controls Zookeeper myid generation
 zookeeper_force_myid: yes
+
+# Controls Zookeper AdminServer
+# warning: change default admin_server_port to different if enabling (conflicts with marathon)
+admin_enable_server: "false"
+admin_server_port: 8080
